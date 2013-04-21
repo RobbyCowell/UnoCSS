@@ -1,0 +1,123 @@
+/*Made by the CSS gods:
+
+Jonjoe (Adido) @2guys1pixel 
+Robby (Redweb Massiv) @RobbyCowell
+
+
+----- Contents
+------- 01 Debug
+------- 02 Globals 
+------- 03 Layout
+------- 04 Content 
+
+*/
+
+/* ---------- 01 debug coloring 
+
+.red{background-color: red;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+.orange{background-color: orange;}
+.purple{background-color: purple;}
+.grey{background-color: grey;}
+.pink{background-color: pink;}
+
+ End */ 
+
+/* --------- 02 global styles*/
+
+body{
+  font-size: 1.2em;
+	font-family:'Arial Bold', sans-serif;!important
+	text-shadow: 3px 3px 0px .000;
+	color:white;
+}
+
+/*End*/
+
+/*---------- 03 Layout*/ 
+
+.jsemulate {
+	height: 325px;width: 200px;
+
+}
+
+.outerContainer{
+	float:left;
+	height:300px; width:200px;
+	border-radius: 20px 20px 20px 20px;
+	border:solid 1px black;
+	display:inline;
+	background:white;
+
+}
+
+.innerContainer{
+	width:180px;
+	height: 280px;
+	margin: 10px;
+	border-radius: 10px;
+	background:green;
+}
+
+.innerContainer.back{
+	background:black;
+}
+
+.head{
+	float: left;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.body{
+	border-radius: 125px 0 125px 0;
+	height:184px;width:170px;
+	float: left;
+	background-color:white;
+	margin:5px;
+}
+
+.body.back {
+	height:270px;
+	background:red;
+}
+
+
+.footer{
+	float: right;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+/*End*/
+
+/*---------- 04 Card Content*/
+
+.leftNumber{
+	float:left;
+	text-shadow:3px 3px black;
+}
+
+.rightNumber{
+	float:right;
+	text-shadow:3px 3px black;
+}
+
+.centreNumber{
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-left:50px;
+	font-size: 5em;
+	font-weight: 900;
+	text-shadow:10px 5px black, 0 2px black, 2px 0 black, 0 -2px black;
+	width:120px;
+	color:green;
+}
+
+.hack {
+	margin-left:30px;!important
+}
+
+/*End*/
